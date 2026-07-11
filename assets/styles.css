@@ -1,0 +1,37 @@
+.main {
+    padding-top: 2rem;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+.stChatMessage {
+    border-radius: 15px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #2e2e2e;
+}
+
+.stMetric {
+    border-radius: 12px;
+}
+
+section[data-testid="stSidebar"] {
+    border-right: 1px solid #444;
+}
+
+.stButton > button {
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.stExpander {
+    border-radius: 12px;
+}
