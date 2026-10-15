@@ -5,8 +5,6 @@ client = genai.Client(
     api_key=config.GOOGLE_API_KEY
 )
 
-client = genai.Client(api_key=GOOGLE_API_KEY)
-
 
 def ask_gemini(question: str) -> str:
     """
